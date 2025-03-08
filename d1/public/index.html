@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Averixes - Student Login</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="login-wrapper">
+      <div class="login-card">
+        <div class="brand">
+          <img src="averixes-logo.png" alt="Averixes Logo" />
+          <!-- Replace with your logo -->
+          <h2>Welcome to Averixes</h2>
+          <p>Student Dashboard Access</p>
+        </div>
+
+        <div class="login-form">
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+          />
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter your password"
+            required
+          />
+          <button onclick="login()">Login</button>
+          <p id="error"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

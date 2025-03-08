@@ -1,0 +1,39 @@
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.progress {
+  background: rgb(255, 208, 121);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.course-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.course-box {
+  background: rgb(255, 210, 125);
+  padding: 15px;
+  border-radius: 8px;
+  width: 250px;
+  text-align: center;
+}

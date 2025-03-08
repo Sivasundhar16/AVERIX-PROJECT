@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="registration.css" />
+    <!-- Link your CSS file -->
+  </head>
+  <body>
+    <div class="container">
+      <h2>Student Registration</h2>
+      <form id="registration-form">
+        <label for="name">Student Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="course">Select Course:</label>
+        <select id="course" name="course" required>
+          <option value="">-- Select Course --</option>
+          <option value="Python Basics">Python Basics</option>
+          <option value="JavaScript Fundamentals">
+            JavaScript Fundamentals
+          </option>
+          <option value="HTML & CSS">HTML & CSS</option>
+        </select>
+
+        <button type="submit">Register</button>
+      </form>
+
+      <div id="registered-students">
+        <h3>Registered Students</h3>
+        <ul id="student-list"></ul>
+      </div>
+    </div>
+
+    <script src="registration.js"></script>
+    <!-- Link your JavaScript file -->
+  </body>
+</html>
